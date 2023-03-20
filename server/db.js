@@ -38,7 +38,6 @@ const User = mongoose.model('User', userSchema);
 
 const connection_URL = 'mongodb+srv://qle1:u1o8sg86B4HH4AFW@cluster.o3qa9c4.mongodb.net/?retryWrites=true&w=majority'
 
-mongoose.connect(connection_URL).then(()=>{console.log(`DBServer Running`)})
+mongoose.connect(connection_URL).then(() => { console.log(`DBServer Running`) })
 
-module.exports = {Class,User}
-
+module.exports = { Class, User }
